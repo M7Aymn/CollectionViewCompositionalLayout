@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		C6347E682C6372E90036E068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6347E672C6372E90036E068 /* AppDelegate.swift */; };
 		C6347E6A2C6372E90036E068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6347E692C6372E90036E068 /* SceneDelegate.swift */; };
-		C6347E6C2C6372E90036E068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6347E6B2C6372E90036E068 /* ViewController.swift */; };
+		C6347E6C2C6372E90036E068 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6347E6B2C6372E90036E068 /* NotificationViewController.swift */; };
 		C6347E6F2C6372E90036E068 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6347E6E2C6372E90036E068 /* Base */; };
 		C6347E712C6372E90036E068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6347E702C6372E90036E068 /* Assets.xcassets */; };
 		C6347E742C6372E90036E068 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6347E732C6372E90036E068 /* Base */; };
+		C6347E7C2C6374680036E068 /* SpecificNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6347E7B2C6374680036E068 /* SpecificNotification.swift */; };
+		C6347E7E2C6377B10036E068 /* imageNotFound.png in Resources */ = {isa = PBXBuildFile; fileRef = C6347E7D2C6377B10036E068 /* imageNotFound.png */; };
+		C6347E802C637EB10036E068 /* NotificationOnTimeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6347E7F2C637EB10036E068 /* NotificationOnTimeProtocol.swift */; };
+		C6347EA22C63852E0036E068 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6347EA12C63852E0036E068 /* CollectionViewController.swift */; };
+		C6C2BEB22C653E3700D668EC /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2BEB12C653E3700D668EC /* CollectionView.swift */; };
+		C6E881992C657A6A00F388C1 /* sunflower-street-drumloop-85bpm-163900.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6E881982C657A6A00F388C1 /* sunflower-street-drumloop-85bpm-163900.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C6347E642C6372E90036E068 /* Day11-Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day11-Task1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6347E642C6372E90036E068 /* CollectionViewCompositionalLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewCompositionalLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6347E672C6372E90036E068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6347E692C6372E90036E068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6347E6B2C6372E90036E068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6347E6B2C6372E90036E068 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		C6347E6E2C6372E90036E068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6347E702C6372E90036E068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6347E732C6372E90036E068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6347E752C6372E90036E068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6347E7B2C6374680036E068 /* SpecificNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificNotification.swift; sourceTree = "<group>"; };
+		C6347E7D2C6377B10036E068 /* imageNotFound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageNotFound.png; sourceTree = "<group>"; };
+		C6347E7F2C637EB10036E068 /* NotificationOnTimeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOnTimeProtocol.swift; sourceTree = "<group>"; };
+		C6347EA12C63852E0036E068 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C6C2BEB12C653E3700D668EC /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		C6E881982C657A6A00F388C1 /* sunflower-street-drumloop-85bpm-163900.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sunflower-street-drumloop-85bpm-163900.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +52,7 @@
 		C6347E5B2C6372E90036E068 = {
 			isa = PBXGroup;
 			children = (
-				C6347E662C6372E90036E068 /* Day11-Task1 */,
+				C6347E662C6372E90036E068 /* CollectionViewCompositionalLayout */,
 				C6347E652C6372E90036E068 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +60,37 @@
 		C6347E652C6372E90036E068 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6347E642C6372E90036E068 /* Day11-Task1.app */,
+				C6347E642C6372E90036E068 /* CollectionViewCompositionalLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6347E662C6372E90036E068 /* Day11-Task1 */ = {
+		C6347E662C6372E90036E068 /* CollectionViewCompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
 				C6347E672C6372E90036E068 /* AppDelegate.swift */,
 				C6347E692C6372E90036E068 /* SceneDelegate.swift */,
-				C6347E6B2C6372E90036E068 /* ViewController.swift */,
+				C6347E6B2C6372E90036E068 /* NotificationViewController.swift */,
+				C6347E7B2C6374680036E068 /* SpecificNotification.swift */,
+				C6347E7F2C637EB10036E068 /* NotificationOnTimeProtocol.swift */,
+				C6347EA12C63852E0036E068 /* CollectionViewController.swift */,
+				C6C2BEB12C653E3700D668EC /* CollectionView.swift */,
 				C6347E6D2C6372E90036E068 /* Main.storyboard */,
 				C6347E702C6372E90036E068 /* Assets.xcassets */,
 				C6347E722C6372E90036E068 /* LaunchScreen.storyboard */,
 				C6347E752C6372E90036E068 /* Info.plist */,
+				C6347E7D2C6377B10036E068 /* imageNotFound.png */,
+				C6E881982C657A6A00F388C1 /* sunflower-street-drumloop-85bpm-163900.mp3 */,
 			);
-			path = "Day11-Task1";
+			path = CollectionViewCompositionalLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6347E632C6372E90036E068 /* Day11-Task1 */ = {
+		C6347E632C6372E90036E068 /* CollectionViewCompositionalLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6347E782C6372E90036E068 /* Build configuration list for PBXNativeTarget "Day11-Task1" */;
+			buildConfigurationList = C6347E782C6372E90036E068 /* Build configuration list for PBXNativeTarget "CollectionViewCompositionalLayout" */;
 			buildPhases = (
 				C6347E602C6372E90036E068 /* Sources */,
 				C6347E612C6372E90036E068 /* Frameworks */,
@@ -82,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "Day11-Task1";
+			name = CollectionViewCompositionalLayout;
 			productName = "Day11-Task1";
-			productReference = C6347E642C6372E90036E068 /* Day11-Task1.app */;
+			productReference = C6347E642C6372E90036E068 /* CollectionViewCompositionalLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6347E5F2C6372E90036E068 /* Build configuration list for PBXProject "Day11-Task1" */;
+			buildConfigurationList = C6347E5F2C6372E90036E068 /* Build configuration list for PBXProject "CollectionViewCompositionalLayout" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6347E632C6372E90036E068 /* Day11-Task1 */,
+				C6347E632C6372E90036E068 /* CollectionViewCompositionalLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6347E7E2C6377B10036E068 /* imageNotFound.png in Resources */,
 				C6347E712C6372E90036E068 /* Assets.xcassets in Resources */,
+				C6E881992C657A6A00F388C1 /* sunflower-street-drumloop-85bpm-163900.mp3 in Resources */,
 				C6347E742C6372E90036E068 /* Base in Resources */,
 				C6347E6F2C6372E90036E068 /* Base in Resources */,
 			);
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6347E6C2C6372E90036E068 /* ViewController.swift in Sources */,
+				C6347EA22C63852E0036E068 /* CollectionViewController.swift in Sources */,
+				C6347E6C2C6372E90036E068 /* NotificationViewController.swift in Sources */,
+				C6C2BEB22C653E3700D668EC /* CollectionView.swift in Sources */,
+				C6347E802C637EB10036E068 /* NotificationOnTimeProtocol.swift in Sources */,
 				C6347E682C6372E90036E068 /* AppDelegate.swift in Sources */,
+				C6347E7C2C6374680036E068 /* SpecificNotification.swift in Sources */,
 				C6347E6A2C6372E90036E068 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +316,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJG6K68J2D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Day11-Task1/Info.plist";
+				INFOPLIST_FILE = CollectionViewCompositionalLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Day11-Task1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m7aymn.CollectionViewCompositionalLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,8 +344,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJG6K68J2D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Day11-Task1/Info.plist";
+				INFOPLIST_FILE = CollectionViewCompositionalLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Day11-Task1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m7aymn.CollectionViewCompositionalLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6347E5F2C6372E90036E068 /* Build configuration list for PBXProject "Day11-Task1" */ = {
+		C6347E5F2C6372E90036E068 /* Build configuration list for PBXProject "CollectionViewCompositionalLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6347E762C6372E90036E068 /* Debug */,
@@ -351,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6347E782C6372E90036E068 /* Build configuration list for PBXNativeTarget "Day11-Task1" */ = {
+		C6347E782C6372E90036E068 /* Build configuration list for PBXNativeTarget "CollectionViewCompositionalLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6347E792C6372E90036E068 /* Debug */,
